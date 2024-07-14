@@ -32,3 +32,5 @@ add_definitions(-DDEBUG)
 ```
 
 - 执行make进行项目编译后，最终生成的可执行文件会在build同目录下，直接运行即可(文件名为app，可以在CMakeLists.txt中修改最终生成的文件名以及输出路径)
+
+- 注：项目内有自动的随机数组生成器，调试时可以根据需求修改生成的数组长度以及数组值的取值范围：RandomArray.cc
